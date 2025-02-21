@@ -1,4 +1,5 @@
 # BoTAS_Back
+
 Backend BoTAS
 
 Instalacion Inicial:
@@ -8,6 +9,8 @@ python -m venv venv
 
 Habilitar el entorno virtual
 source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
+
+.\botas_back\Scripts\activate
 
 se crea la estructura basica de archivos:
 
@@ -28,3 +31,7 @@ BoTAS_Back/
 ├── .gitignore
 ├── run.py
 └── requirements.txt
+
+## para iniciar el backend
+
+python.exe run.py
